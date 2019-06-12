@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+* {
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background: rgb(77, 148, 86);
+  position: fixed;
+  width: 100%;
+}
+
+.nav-item {
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+section {
+    background: url("img/jacks1.jpg");
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    text-align: center;
+}
+
+section h1 {
+    font-size: 40px;
+    padding-top: 300px;
+}
+
+.btn {
+    padding: 20px;
+    background: rgb(77, 148, 86);
+    width: 200px;
+    margin: 20px auto;
+    transition: 1s ease;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background: rgb(50, 132, 61);
+    transition: 1s ease;
+}
+
+
+img {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.wrapper {
+  max-width: 65%;
+  margin: 0 auto;
+}
+
+.text {
+  padding: 40px;
+  margin: 20px 0;
+  border: 2px solid black;
+}
+
+footer {
+  background: rgb(77, 148, 86);
+}
+
+.f-wrapper {
+  display: grid;
+  width: 65%;
+  margin: 0 auto;
+  grid-template-columns: 1fr 1fr;
+}
+
+.f-col1 {
+  margin: 40px;
+  color: white;
+}
+
+.f-col2 {
+  margin: 0 auto;
+  padding: 20px;
+}
